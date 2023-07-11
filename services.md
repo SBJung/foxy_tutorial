@@ -204,7 +204,7 @@ ros2 service call /clear std_srvs/srv/Empty
 ![](https://docs.ros.org/en/foxy/_images/clear.png)
    * turtlesim 창을 clear하는 명령
 
-* /spawn service 호출하는 명령 실행(YAML 문법 사용)
+* /spawn service 호출하는 명령 실행(YAML 문법 사용-argument)
 ```bash
 ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: ''}"
 ```
