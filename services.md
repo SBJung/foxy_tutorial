@@ -12,6 +12,7 @@
 * publisher-subscriber 모델 vs. call-and-response 모델
 * topics : publisher가 지속적으로 data stream 을 subscriber에게 제공
 * services : client가 요청하면 그 요청에 따라서 server가 data를 제공
+* topic은 발송하면 subscriber모두가 수신하지만, server/client는 clinet만 수신
 
 * 1개 service server와 1개 service client (아래 그림)
 ![](https://docs.ros.org/en/foxy/_images/Service-SingleServiceClient.gif)
