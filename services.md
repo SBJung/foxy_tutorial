@@ -105,7 +105,6 @@ ros2 service type /clear
 std_srvs/srv/Empty
 ```
   * Empty type은 request와 response로 어떤 data를 보내거나 받는 않는 type
-  * service는 request, response 2가지로 나뉜다.
   * 일종의 event 처럼 사용되었다.
 
 ### 2-3-1 ros2 service list -t
@@ -167,6 +166,7 @@ ros2 interface show std_srvs/srv/Empty.srv
 ---
 ```
    * --- 은 request와 response를 구분해주는 구분자. Empty type의 경우 data를 주고 받는 것이 없으므로 공백으로 표현
+   * * service는 request, response 2가지로 나뉜다.
 
 * ros2 service list -t 명령을 실행한 결과로 /spawn의 type이 turtlesim/srv/Spawn 라는 것을 알고 있다.
 
