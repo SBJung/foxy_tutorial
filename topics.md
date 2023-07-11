@@ -80,7 +80,7 @@ ros2 topic list
 ros2 topic list -t
 ```
 
-* 결과 : <topic name> [data]
+* 결과 : topic name [data]
 ```
 /parameter_events [rcl_interfaces/msg/ParameterEvent]
 /rosout [rcl_interfaces/msg/Log]
