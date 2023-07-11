@@ -14,7 +14,7 @@
 ## 1. 개요
 * ROS 2 topics에 대한 개념을 이해하기 위해서 rqt_graph와 CLI 도구 사용하는 방법을 이해해야 한다.
   * ROS 2에서는 시스템은 모듈화된 여러 nodes로 구성
-  * topics = bus 
+  * topics = bus (bus : a type of data pathway)
   * 각 node가 data를 교환하는 bus (아래 그림)
 
 ![](https://docs.ros.org/en/foxy/_images/Topic-SinglePublisherandSingleSubscriber.gif)
@@ -55,8 +55,8 @@ rqt_graph
 
 
 * Quiz :
-  * node는? 
-  * topics은?
+  * node는? A : Oval shape
+  * topics은? A : Rectangle shape
 
 
 ### 2-3 ros2 topic list
