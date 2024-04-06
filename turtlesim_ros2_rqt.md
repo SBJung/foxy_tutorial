@@ -43,7 +43,7 @@ turtlesim turtlesim_node
 
 ### 2-2 turtlesim 구동시키기
 * turtlesim 실행
-  ros2 run : 특정 패키지의 특정 노드를 실행함.
+   * ros2 run : 특정 패키지의 특정 노드를 실행함.
 ```bash
 ros2 run turtlesim turtlesim_node
 ```
