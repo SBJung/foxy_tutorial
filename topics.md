@@ -60,7 +60,7 @@ rqt_graph
 
 
 ### 2-3 ros2 topic list
-* 현재 ROS 2 시스템에서 실행 중인 모든 topics 목록 보는 명령
+* **ros2 topic list**: 현재 ROS 2 시스템에서 실행 중인 모든 topics 목록 보는 명령
 * 새 터미널에서 ros2 topic list 명령 실행하기
 ```bash
 ros2 topic list
@@ -90,7 +90,7 @@ ros2 topic list -t
 ```
 
 ### 2-4 ros2 topic echo
-* 특정 topic에서 publish되는 data 확인하는 명령 형태
+* **ros2 topic echo**: 특정 topic에서 publish되는 data를 확인하는 명령 형태
 ```bash
 ros2 topic echo <topic_name>
 ```
@@ -126,7 +126,7 @@ angular:
 ### 2-5 ros2 topic info
 * topic은 1:1, 1:n, n:1, n:n 이 가능하다.
 
-* 현재 실행중인 topic 정보(publisher와 subscriber 개수) 확인하는 명령
+* **ros2 topic info**: 현재 실행중인 topic 정보(publisher와 subscriber 개수) 확인하는 명령
 ```bash
 ros2 topic info /turtle1/cmd_vel
 ```
@@ -153,7 +153,7 @@ geometry_msgs/msg/Twist
     * geometry_msgs : package 이름
     * Twist라는 msg가 있다는 의미
 
-* type에 대한 상세 정보(메시지 구조)를 얻기 위한 명령 형태
+* **ros2 interface show**: message type에 대한 상세 정보(메시지 구조)를 얻기 위한 명령 형태
 ```bash
 ros2 interface show geometry_msgs/msg/Twist
 ```
