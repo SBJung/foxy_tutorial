@@ -156,7 +156,7 @@ ros2 service find std_srvs/srv/Empty
 ros2 interface show <type_name>.srv
 ```
 
-* /clear serive의 type인 Empty에 대해서 명령 실행해보기
+* /clear service의 type인 Empty에 대해서 명령 실행해보기
 ```bash
 ros2 interface show std_srvs/srv/Empty.srv
 ```
