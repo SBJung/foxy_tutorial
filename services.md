@@ -104,7 +104,7 @@ ros2 service type /clear
 ```
 std_srvs/srv/Empty
 ```
-  * Empty type은 request와 response로 어떤 data를 보내거나 받는 않는 type
+  * Empty type은 request와 response로 어떤 data를 보내거나 받지 않는 type
   * 일종의 event 처럼 사용되었다.
 
 ### 2-3-1 ros2 service list -t
