@@ -151,7 +151,7 @@ ros2 service find std_srvs/srv/Empty
 ### 2-5 ros2 interface show
 * 터미널에서 services 직접 호출하려면 해당 service의 내부 구조를 알아야 값을 입력할 수 있다.
 
-* service의 구조 보기 명령 형식
+* **service의 구조 보기 명령 형식**
 ```bash
 ros2 interface show <type_name>.srv
 ```
@@ -165,7 +165,7 @@ ros2 interface show std_srvs/srv/Empty.srv
 ```
 ---
 ```
-   * --- 은 request와 response를 구분해주는 구분자. Empty type의 경우 data를 주고 받는 것이 없으므로 공백으로 표현
+   * **--- 은 request와 response를 구분해주는 구분자.** Empty type의 경우 data를 주고 받는 것이 없으므로 공백으로 표현
    * * service는 request, response 2가지로 나뉜다.
 
 * ros2 service list -t 명령을 실행한 결과로 /spawn의 type이 turtlesim/srv/Spawn 라는 것을 알고 있다.
