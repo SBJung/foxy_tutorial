@@ -21,7 +21,7 @@
     * 실행 중에 cancel이 가능!
     * 주기적인 feedback 제공
   * client-server model
-  * client가 server에게 goal을 전송하고 server는 ack, feedback, result를 전송
+  * client가 server에게 goal을 전송하고 server는 act, feedback, result를 전송
 
 ![](https://docs.ros.org/en/foxy/_images/Action-SingleActionClient.gif)
 
