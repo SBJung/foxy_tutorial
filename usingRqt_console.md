@@ -11,7 +11,7 @@
   * 사용자가 내부 상태를 확인하는데 도움
 * rqt_console
   * log 메시지를 조사하는 GUI 도구
-  * 터미널에서 출력되는 메시지를 좀더 조직적이고 똑똑한 방법으로 확인 가능
+  * 터미널에서 출력되는 메시지를 좀 더 조직적이고 똑똑한 방법으로 확인 가능
   * 필터링, 저장, reload
 
 ## 2. 실습
@@ -53,7 +53,7 @@ ros2 topic pub -r 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, 
 ```
 Fatal : 시스템을 종료시킬만큼의 상황
 Error : 시스템의 중요 issue 발생 상황
-Warn  : 예상하지 못한 동작 혹은 이상적인 않은 결과 상황
+Warn  : 예상하지 못한 동작 혹은 이상적이지 않은 결과 상황
 Info : event나 status가 발생 상황
 Debug : 시스템 실행시 단계별 실행을 모니터링 할때
 ```
