@@ -16,7 +16,7 @@
 
 ![](https://docs.ros.org/en/foxy/_images/Nodes-TopicandService.gif)
 
-* 즉 robotics system은 이렇게 수많은 nodes로 구성되어 돌아가는 system이다.
+* **즉 robotics system은 이렇게 수많은 nodes로 구성되어 돌아가는 system이다.**
 
 ## 2. 실습
 ### 2-1 ros2 run
