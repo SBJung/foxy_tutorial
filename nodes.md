@@ -77,7 +77,7 @@ ros2 run turtlesim turtlesim_node --ros-args --remap __node:=my_turtle
 ```
 
 ### 2-3 ros node info
-* node의 이름을 알고 있는 경우 해당 node의 **상세 정보**를 알기 위한 명령 형태
+* node의 이름을 알고 있는 경우 해당 node의 (topics, service, action에 대한)**상세 정보**를 알기 위한 명령 형태
 ```bash
 ros2 node info <node_name>
 ```
