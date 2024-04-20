@@ -90,7 +90,7 @@ ros2 topic list -t
 ```
 
 ### 2-4 ros2 topic echo
-* **ros2 topic echo**: 특정 topic에서 publish되는 data를 확인하는 명령 형태
+* **ros2 topic echo**: 특정 topic에서 publish되는 **data(value)**를 확인하는 명령 형태
 ```bash
 ros2 topic echo <topic_name>
 ```
